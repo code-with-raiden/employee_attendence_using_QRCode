@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form method="POST">
+            {% csrf_token %}
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+        <a href="{% url 'register' %}">Don't have an account? Register</a>
+        <a href="{% url 'forgot_password' %}" style="margin-top: 20px;">Forgot Password?</a>
+        <!-- <a href="{% url 'scan_qr_code' %}" style="margin-top: 20px;">Scan QR Code</a> -->
+    </div>
+</body>
+</html>
