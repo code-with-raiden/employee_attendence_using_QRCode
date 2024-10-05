@@ -1,12 +1,13 @@
-# Django-chat-app
+# Employee Attendence Using QRcode
 
 
 
-- A Python project for chatting application created using Django HTML content, and more 
+- A Python project for login and logout of the employee created using Django HTML content,Javascripts ,Python, and more 
 ## Features
-- Send  OTP for login .
-- chatting with multiple user .
-- add profile pic .
+- Register the Employee
+- Send Qrcode to registered mail_id  .
+- OpenCV for camera and capture .
+- Logut 
 
   
 # TECHNOLOGIES USED 📌
