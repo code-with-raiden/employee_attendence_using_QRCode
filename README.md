@@ -7,6 +7,7 @@
 - Register the Employee
 - Send Qrcode to registered mail_id  .
 - OpenCV for camera and capture .
+- store data in a csv file
 - Logut 
 
   
